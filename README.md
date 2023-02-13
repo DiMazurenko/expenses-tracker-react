@@ -2,7 +2,7 @@
 
 ## Description
 
-Expenses tracker React App. Application for recording expenses with the formation of a monthly schedule&
+Expenses tracker React App. Application for recording expenses with the formation of a monthly schedule.
 
 App publushed https://iridescent-scone-cdc00f.netlify.app
 
