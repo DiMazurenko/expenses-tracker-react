@@ -2,12 +2,6 @@ import React, { useState } from 'react';
 import './ExpenseForm.css';
 
 const ExpenseForm = (props) => {
-  // const [userInput, setUserInput] = useState({
-  //   enteredTitle: '',
-  //   enteredAmount: '',
-  //   enteredDate: '',
-  // });
-
   const [enteredTitle, setEnteredTitle] = useState('');
   const [enteredAmount, setEnteredAmount] = useState('');
   const [enteredDate, setEnteredDate] = useState('');
@@ -17,12 +11,10 @@ const ExpenseForm = (props) => {
   };
 
   const amountChangeHandler = (e) => {
-    // setUserInput({ ...userInput, enteredAmount: e.target.value });
     setEnteredAmount(e.target.value);
   };
 
   const dateChangeHandler = (e) => {
-    // setUserInput({ ...userInput, enteredDate: e.target.value });
     setEnteredDate(e.target.value);
   };
 
@@ -68,7 +60,7 @@ const ExpenseForm = (props) => {
             type="date"
             value={enteredDate}
             min="2019-01-01"
-            max="2022-12-31"
+            max="2024-12-31"
             onChange={dateChangeHandler}
           />
         </div>
